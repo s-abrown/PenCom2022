@@ -12,13 +12,16 @@ An Interactive Fiction by Sophie
 Release 1 / Serial number 220502 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Classroom
- Before you even open your eyes, the first thing you're aware of is that it's eerily quiet. You slowly open your eyes to a familiar sight. You're in Classroom 5183, one of the many computer rooms of your University. It has always struck you as austere and grey. It's on the top floor of the building and has a view over both the neighbouring motorway on one side and a creek on the other - and yet you can't hear any cars or see any sign of life outside. Long rows of tables, dotted by other monitors, stretch across the room.  It's room 5183. It's quiet and unsettling as ever. 
+ Before you even open your eyes, the first thing you're aware of is that it's eerily quiet. You slowly open your eyes to a familiar sight. You're in Classroom 5183, one of the many computer rooms of your University. It has always struck you as austere and grey. Long rows of tables, dotted by other monitors, stretch across the room. The room is on the top floor of the building and usually has views over both the bustling neighbouring motorway on one side and a creek on the other - and yet you can't hear any cars or see any sign of life outside.
+
+ Room 5183 is quiet and unsettling as ever. 
 
 You can see a classroom door and a Monitor here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1005"></child>
+        <children><child nodeId="node-1013"></child>
+            <child nodeId="node-1005"></child>
             <child nodeId="node-1007"></child>
         </children>
     </item>
@@ -87,6 +90,31 @@ You can see a classroom door and a Monitor here.
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Darkness
 It is pitch dark, and you can't see a thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1013">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the classroom door)
+
+hallway
+the hallway is pretty dark but since the light in the informatic room is on you can see  a little bit of the place. You can see the door of the lift and the door of the toilet, but the rest of the university is in the dark
+
+You can see a classroom door, a lift 5 door and a toilet door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1014"></child>
+        </children>
+    </item>
+    <item nodeId="node-1014">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Classroom
+ Room 5183 is quiet and unsettling as ever. 
+
+You can see a classroom door and a Monitor here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

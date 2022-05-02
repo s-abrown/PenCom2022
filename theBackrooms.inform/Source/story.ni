@@ -5,11 +5,15 @@ Part 1 - The Computer Room/Classroom
 Section 1 - Classroom description and objects
 
 The Classroom is a room. The Classroom is lighted. 
-The description of the Classroom is "[first time] Before you even open your eyes, the first thing you're aware of is that it's eerily quiet. You slowly open your eyes to a familiar sight. You're in Classroom 5183, one of the many computer rooms of your University. It has always struck you as austere and grey. It's on the top floor of the building and has a view over both the neighbouring motorway on one side and a creek on the other - and yet you can't hear any cars or see any sign of life outside. Long rows of tables, dotted by other monitors, stretch across the room.
-[only] It's room 5183. It's quiet and unsettling as ever. "
+The description of the Classroom is "[first time] Before you even open your eyes, the first thing you're aware of is that it's eerily quiet. You slowly open your eyes to a familiar sight. You're in Classroom 5183, one of the many computer rooms of your University. It has always struck you as austere and grey. Long rows of tables, dotted by other monitors, stretch across the room. The room is on the top floor of the building and usually has views over both the bustling neighbouring motorway on one side and a creek on the other - and yet you can't hear any cars or see any sign of life outside.
 
-A Monitor is a thing. A Monitor is lit. The description of a Monitor is "A familiar Mac monitor glowing eerily with a cold white light".
-A Monitor is in the Classroom. 
+[only] You feel unseasy in room 5183. "
+
+A Monitor is a switched off device in the classroom.
+Carry out switching on the monitor: now the monitor is lighted.
+Carry out switching off the monitor: now the monitor is dark.
+The description of a turned off monitor is "A unassuming Mac monitor. It has a small red blinking light next to a button to turn it on ."
+The description of a turned on monitor is "HINT HERE."
 
 
 
@@ -24,6 +28,8 @@ the description of the hallway is "the hallway is pretty dark but since the ligh
 the classroom door is a door. the classroom door is east  of the Classroom and west of the hallway. 
 
 Part 3 - The Bathrom
+
+section 1 - Bathroom description and objects
 
 a toilet is a room. the toilet is lighted. 
 the description of the toilet is "The toilet looks clean".
