@@ -11,10 +11,20 @@ theBackrooms
 An Interactive Fiction by Sophie
 Release 1 / Serial number 220502 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
-classroom
-the classroom is a actually a informatic classroom. There are multiple macpro attached to the desk. there is also a black board
+Classroom
+The room you're in is faintly illuminated by a lone computer monitor casting an eery glow. In its cold light you can recognise Classroom 5183, one of the many computer rooms of the University. It has always struck you as austere and grey. It's on the top floor of the building and has a view over both the neighbouring motorway on one side and a creek on the other - and yet you can't hear any cars or see any sign of life outside. You can make out rows of long tables upon which stand other Mac monitors.
 
-You can see a classroom door here.
+You can see a classroom door, a Monitor (providing light) and a light switch here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1005"></child>
+        </children>
+    </item>
+    <item nodeId="node-1005">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Darkness
+It is pitch dark, and you can't see a thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

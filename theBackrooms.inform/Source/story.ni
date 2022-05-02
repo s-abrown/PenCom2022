@@ -1,29 +1,40 @@
 "theBackrooms" by Sophie
 
 
-Section 1 - The Computer Room
+Part 1 - The Computer Room/Classroom
 
-a classroom is a room. the classroom is lighted. 
-the description of the classroom is "the classroom is a actually a informatic classroom. There are multiple macpro attached to the desk. there is also a black board".
-a hallway is a room. 
+Section 1 - Classroom description and objects
 
-section 2 - The Hallway
+The Classroom is a room. The Classroom is a dark room. 
+[We can add light sources to the room (computers/ligtbulbs triggered by a lightswitch) but we can't make a room "light or dark" idk why. If we start with a dark room we can't get any description of the room "it's pitch dark and you can't see a thing"]
+The description of the Classroom is "The room you're in is faintly illuminated by a lone computer monitor casting an eery glow. In its cold light you can recognise Classroom 5183, one of the many computer rooms of the University. It has always struck you as austere and grey. It's on the top floor of the building and has a view over both the neighbouring motorway on one side and a creek on the other - and yet you can't hear any cars or see any sign of life outside. You can make out rows of long tables upon which stand other Mac monitors."
 
+A Monitor is a thing. A Monitor is lit. The description of a Monitor is "A familiar Mac monitor glowing eerily and faintly illuminating the room with a cold white light".
+A Monitor is in the Classroom. 
+
+The light switch is a switched off device in the Classroom. It is fixed in place. 
+Carry out switching on the light switch: now the Classroom is lighted.
+Carry out switching off the light switch: now the Classroom is dark.
+
+Part 2 - The Hallway and Classroom-Hallway Door
+
+The hallway is a room. 
 the description of the hallway is "the hallway is pretty dark but since the light in the informatic room is on you can see  a little bit of the place. You can see the door of the lift and the door of the toilet, but the rest of the university is in the dark".
-the classroom door is a door. the classroom door is east  of the classroom and west of the hallway. 
 
-section 3 - The Bathrom
+the classroom door is a door. the classroom door is east  of the Classroom and west of the hallway. 
+
+Part 3 - The Bathrom
 
 a toilet is a room. the toilet is lighted. 
 the description of the toilet is "The toilet looks clean".
 the toilet door is a door. the toilet door is north of the hallway and south of the toilet. 
 
-section 4 - The void/the rest of the University
+Part 4 - The void/the rest of the University
 
 a university is a room. the university is dark. the university is east of the hallway.
 Instead of going to the university  : say "You look at the rest of the university and You feel incredibly terrified by the darkness of the place. All your instinct scream at you not to go there".
 
-section 5 - The lift
+Part 5 - The lift
 
 a lift 5 is a room. the lift 5 is lighted. 
 the description of the lift 5 is " you hear a message : welcome to the fifth floor".
