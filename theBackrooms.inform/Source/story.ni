@@ -1,22 +1,22 @@
 "theBackrooms" by Sophie
 
-
 Part 1 - The Computer Room/Classroom
 
 Section 1 - Classroom description and objects
 
-The Classroom is a room. The Classroom is a dark room. 
-[We can add light sources to the room (computers/ligtbulbs triggered by a lightswitch) but we can't make a room "light or dark" idk why. If we start with a dark room we can't get any description of the room "it's pitch dark and you can't see a thing"]
-The description of the Classroom is "The room you're in is faintly illuminated by a lone computer monitor casting an eery glow. In its cold light you can recognise Classroom 5183, one of the many computer rooms of the University. It has always struck you as austere and grey. It's on the top floor of the building and has a view over both the neighbouring motorway on one side and a creek on the other - and yet you can't hear any cars or see any sign of life outside. You can make out rows of long tables upon which stand other Mac monitors."
+The Classroom is a room. The Classroom is lighted. 
+The description of the Classroom is "[first time] Before you even open your eyes, the first thing you're aware of is that it's eerily quiet. You slowly open your eyes to a familiar sight. You're in Classroom 5183, one of the many computer rooms of your University. It has always struck you as austere and grey. It's on the top floor of the building and has a view over both the neighbouring motorway on one side and a creek on the other - and yet you can't hear any cars or see any sign of life outside. Long rows of tables, dotted by other monitors, stretch across the room.
+[only] It's room 5183. It's quiet and unsettling as ever. "
 
-A Monitor is a thing. A Monitor is lit. The description of a Monitor is "A familiar Mac monitor glowing eerily and faintly illuminating the room with a cold white light".
+A Monitor is a thing. A Monitor is lit. The description of a Monitor is "A familiar Mac monitor glowing eerily with a cold white light".
 A Monitor is in the Classroom. 
 
-The light switch is a switched off device in the Classroom. It is fixed in place. 
-Carry out switching on the light switch: now the Classroom is lighted.
-Carry out switching off the light switch: now the Classroom is dark.
+
+
 
 Part 2 - The Hallway and Classroom-Hallway Door
+
+section 1 - Hallway description and objects
 
 The hallway is a room. 
 the description of the hallway is "the hallway is pretty dark but since the light in the informatic room is on you can see  a little bit of the place. You can see the door of the lift and the door of the toilet, but the rest of the university is in the dark".

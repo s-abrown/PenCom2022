@@ -12,14 +12,76 @@ An Interactive Fiction by Sophie
 Release 1 / Serial number 220502 / Inform 7 build 6M62 (I6/v6.34 lib 6/12N) SD
 
 Classroom
-The room you're in is faintly illuminated by a lone computer monitor casting an eery glow. In its cold light you can recognise Classroom 5183, one of the many computer rooms of the University. It has always struck you as austere and grey. It's on the top floor of the building and has a view over both the neighbouring motorway on one side and a creek on the other - and yet you can't hear any cars or see any sign of life outside. You can make out rows of long tables upon which stand other Mac monitors.
+ Before you even open your eyes, the first thing you're aware of is that it's eerily quiet. You slowly open your eyes to a familiar sight. You're in Classroom 5183, one of the many computer rooms of your University. It has always struck you as austere and grey. It's on the top floor of the building and has a view over both the neighbouring motorway on one side and a creek on the other - and yet you can't hear any cars or see any sign of life outside. Long rows of tables, dotted by other monitors, stretch across the room.  It's room 5183. It's quiet and unsettling as ever. 
 
-You can see a classroom door, a Monitor (providing light) and a light switch here.
+You can see a classroom door and a Monitor here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1005"></child>
+            <child nodeId="node-1007"></child>
         </children>
+    </item>
+    <item nodeId="node-1007">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1008"></child>
+        </children>
+    </item>
+    <item nodeId="node-1008">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1009"></child>
+        </children>
+    </item>
+    <item nodeId="node-1009">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1010"></child>
+        </children>
+    </item>
+    <item nodeId="node-1010">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1011"></child>
+        </children>
+    </item>
+    <item nodeId="node-1011">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">(first opening the classroom door)
+
+hallway
+the hallway is pretty dark but since the light in the informatic room is on you can see  a little bit of the place. You can see the door of the lift and the door of the toilet, but the rest of the university is in the dark
+
+You can see a classroom door, a lift 5 door and a toilet door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1012"></child>
+        </children>
+    </item>
+    <item nodeId="node-1012">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Classroom
+ It's on the top floor of the building and has a view over both the neighbouring motorway on one side and a creek on the other - and yet you can't hear any cars or see any sign of life outside. Long rows of tables dotted by other monitors stretch across the room.
+
+You can see a classroom door and a Monitor here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1005">
         <command xml:space="preserve">look</command>
