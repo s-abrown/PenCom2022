@@ -14,9 +14,6 @@ Carry out switching on the monitor: now the monitor is lighted.
 Carry out switching off the monitor: now the monitor is dark.
 The description of a monitor is "[if switched off] A unassuming Mac monitor. It has a small red blinking light next to a button to turn it on. [otherwise] HINT HERE."
 
-
-
-
 Part 2 - The Hallway and Classroom-Hallway Door
 
 section 1 - Hallway description and objects
