@@ -12,8 +12,7 @@ The description of the Classroom is "[first time] Before you even open your eyes
 A Monitor is a switched off device in the classroom.
 Carry out switching on the monitor: now the monitor is lighted.
 Carry out switching off the monitor: now the monitor is dark.
-The description of a turned off monitor is "A unassuming Mac monitor. It has a small red blinking light next to a button to turn it on ."
-The description of a turned on monitor is "HINT HERE."
+The description of a monitor is "[if switched off] A unassuming Mac monitor. It has a small red blinking light next to a button to turn it on. [otherwise] HINT HERE."
 
 
 
