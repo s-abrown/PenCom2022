@@ -38,33 +38,54 @@ Instead of going to the university  : say "You look at the rest of the universit
 
 Part 5 - The lift
 
-a lift 5 is a room. the lift 5 is lighted. 
-the description of the lift 5 is " you hear a message : welcome to the fifth floor".
-a lift 5 door is a door. the lift 5 door is south of the hallway and north of the lift. 
-a lift 5 is up from the lift 4.
+The Lift is a room. "This is a basic Elevator with buttons.".
+The lift door is a door. the Lift door is south of the hallway and north of the Lift. 
 
-a lift 4 is a room. 
-the description of the lift 4 is " you hear a message : welcome to the fourth floor".
-a floor 4 is a room. the floor 4 is dark.
-a floor 4 door is a door. the floor 4 door is north of the the lift 4 and south of the floor 4. the floor 4 door is unopenable.
-Instead of opening the floor 4 door  : say "It seems like the door doesn't open".
-the lift 4 is up from the lift 3.
+Table of Floors
+level 	floor		
+0 	Bassement
+1 	Floor 1
+2 	Floor 2
+3 	Floor 3
+4 	Floor 4 
+5	Floor 5 
 
-a lift 3 is a room.
-the description of the lift 3 is " you hear a message : welcome to the third floor".
-a floor 3 is a room. the floor 3 is dark.
-a floor 3 door is a door. the floor door 3 is north of the the lift 3 and south of the floor 3. the floor 3 door is unopenable. 
-Instead of opening the floor 3 door  : say "It seems like the door doesn't open".
-the lift 3 is up from the lift 2
+The elevator exterior is a backdrop. It is not scenery. The initial appearance of the elevator exterior is "You can enter the elevator here." It is in Bassement, Floor 1, Floor 2, Floor 3, Floor 4, Floor 5.
 
-a lift 2 is a room. 
-the description of the lift 2 is " you hear a message : welcome to the second floor".
-a floor 2 is a room. the floor 2 is dark.
-a floor 2 door is a door. the floor door 2 is north of the the lift 2 and south of the floor 2. the floor 2 door is unopenable.
-Instead of opening the floor 2 door  : say "It seems like the door doesn't open".
-the lift 2 is up from the  lift 1
+Before entering the elevator exterior, try going inside instead.
 
-a lift 1 is a room. 
-the description of the lift 1 is " you hear a message : welcome to the first floor".
-a floor 1 is a room. 
-a floor 1 door is a door. the floor door 1 is north of the the lift 1 and south of the floor 1.
+Instead of going inside in the presence of the elevator exterior:
+	if there is a level corresponding to a floor of the location in the Table of Floors:
+		let the present level be the level corresponding to a floor of the location in the Table of Floors;
+		now the current level of the Lift is the present level;
+	otherwise:
+		now the current level of the Lift is the current level of Generic Floor;
+	move the player to the Lift.
+	
+The Lift has a number called current level. The current level of the Lift is 5. Instead of going up in the Lift: say "You'll have to select a specific floor; your options range from 0 to 5." Instead of going down in the Lift: try going up instead. 
+
+Before going outside in the Lift:
+	if there is a floor corresponding to a level of the current level of the Lift in the Table of Floors:
+		let the other place be the floor corresponding to a level of the current level of the Lift in the Table of Floors;
+		move the player to the other place instead;
+	otherwise:
+		now the current level of the Generic Floor is the current level of the Lift;
+		move the player to the Generic Floor instead.
+
+The Generic Floor is a room. The Generic Floor has a number called current level. The printed name of the Generic Floor is "Floor [current level of the Generic Floor]". 
+
+Understand "push [number]" as pressing button. Understand "push [number] button" as pressing button. Understand "push button [number]" as pressing button. Pressing button is an action applying to one number.
+
+Check pressing button:
+	if the player is not in the Lift, say "You cannot control the lift unless you are yourself inside." instead;
+	if the number understood is the current level of the Lift, say "The lift pings politely and reopens its doors, since you are already on floor [number understood]." instead;
+	if the number understood is greater than 5, say "There are only 5 floors." instead;
+	if the number understood is less than 0, say "You cannot go below the ground floor in this elevator." instead.
+
+Carry out pressing button:
+	now the current level of the Lift is the number understood;
+	say "You press button [the number understood]. The lift whirs into action and moves to the correct level.".	
+
+Part 6 - Bassement
+
+Bassement is a room. The description of the Bassement is "The door of the lift opens. You discover a room with a strange atmosphere. Someone left some Carton box here and there. You can smell a stuffy odor".
