@@ -50,7 +50,7 @@ level 	floor
 4 	Floor 4 
 5	Floor 5 
 
-The elevator exterior is a backdrop. It is not scenery. The initial appearance of the elevator exterior is "You can enter the elevator here." It is in Bassement, Floor 1, Floor 2, Floor 3, Floor 4, Floor 5.
+The elevator exterior is a backdrop. It is not scenery. The initial appearance of the elevator exterior is "You can enter the elevator here." It is in Bassement, Floor 5.
 
 Before entering the elevator exterior, try going inside instead.
 
@@ -67,11 +67,18 @@ The Lift has a number called current level. The current level of the Lift is 5. 
 Before going outside in the Lift:
 	if there is a floor corresponding to a level of the current level of the Lift in the Table of Floors:
 		let the other place be the floor corresponding to a level of the current level of the Lift in the Table of Floors;
-		move the player to the other place instead;
+		if the current level of the Lift < 5: 
+			if the current level of the Lift is 0: 
+				move the player to the other place instead;
+			otherwise:
+				say "It seem's like the doors doesn't open.";
+				stop the action;	
+		otherwise:
+			move the player to the other place instead;
 	otherwise:
 		now the current level of the Generic Floor is the current level of the Lift;
 		move the player to the Generic Floor instead.
-
+		
 The Generic Floor is a room. The Generic Floor has a number called current level. The printed name of the Generic Floor is "Floor [current level of the Generic Floor]". 
 
 Understand "push [number]" as pressing button. Understand "push [number] button" as pressing button. Understand "push button [number]" as pressing button. Pressing button is an action applying to one number.
@@ -81,10 +88,17 @@ Check pressing button:
 	if the number understood is the current level of the Lift, say "The lift pings politely and reopens its doors, since you are already on floor [number understood]." instead;
 	if the number understood is greater than 5, say "There are only 5 floors." instead;
 	if the number understood is less than 0, say "You cannot go below the ground floor in this elevator." instead.
-
+	
 Carry out pressing button:
 	now the current level of the Lift is the number understood;
-	say "You press button [the number understood]. The lift whirs into action and moves to the correct level.".	
+	say "You press button [the number understood]. The lift whirs into action and moves to the correct level.".
+
+
+hallway is up from the Floor 4. 
+Floor 4 is up from the Floor 3. Floor 4 is a room. 
+Floor 3 is up from the Floor 2. Floor 3 is a room. 
+Floor 2 is up from the Floor 1. Floor 2 is a room. 
+Floor 1 is up from the Bassement. Floor 1 is a room. 
 
 Part 6 - Bassement
 
