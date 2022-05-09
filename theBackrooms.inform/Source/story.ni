@@ -69,17 +69,14 @@ The Lift has a number called current level. The current level of the Lift is 5. 
 Before going outside in the Lift:
 	if there is a floor corresponding to a level of the current level of the Lift in the Table of Floors:
 		let the other place be the floor corresponding to a level of the current level of the Lift in the Table of Floors;
-		if the current level of the Lift < 5: 
-			if the current level of the Lift is 0: 
-				move the player to the other place instead;
-			otherwise:
-				say "It seem's like the doors doesn't open.";
-				stop the action;	
+		if the current level of the Lift < 5 and the current level of the lift > 0: 
+			say "It seem's like the doors doesn't open.";
+			stop the action;	
 		otherwise:
-			move the player to the other place instead;
+			move the player to the other place;
 	otherwise:
 		now the current level of the Generic Floor is the current level of the Lift;
-		move the player to the Generic Floor instead.
+		move the player to the Generic Floor instead.	
 		
 The Generic Floor is a room. The Generic Floor has a number called current level. The printed name of the Generic Floor is "Floor [current level of the Generic Floor]". 
 
