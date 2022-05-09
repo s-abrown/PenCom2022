@@ -48,9 +48,9 @@ level 	floor
 2 	Floor 2
 3 	Floor 3
 4 	Floor 4 
-5	Floor 5 
+5	hallway 
 
-The elevator exterior is a backdrop. It is not scenery. The initial appearance of the elevator exterior is "You can enter the elevator here." It is in Bassement, Floor 5.
+The elevator exterior is a backdrop. It is not scenery. The initial appearance of the elevator exterior is "You can enter the elevator here." It is in Bassement, hallway.
 
 Before entering the elevator exterior, try going inside instead.
 
