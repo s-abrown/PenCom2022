@@ -4,7 +4,7 @@ Part 1 - The Computer Room/Classroom
 
 Section 1 - Classroom description and objects
 [..........]
-
+hiiiihi
 
 
 The Classroom is a room. The Classroom is lighted. 
