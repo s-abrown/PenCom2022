@@ -3,6 +3,9 @@
 Part 1 - The Computer Room/Classroom
 
 Section 1 - Classroom description and objects
+[..........]
+
+
 
 The Classroom is a room. The Classroom is lighted. 
 The description of the Classroom is "[first time] Before you even open your eyes, the first thing you're aware of is that it's eerily quiet. You slowly open your eyes to a familiar sight. You're in Classroom 5183, one of the many computer rooms of your University. It has always struck you as austere and grey. Long rows of tables, dotted by other monitors, stretch across the room. The room is on the top floor of the building and usually has views over both the bustling neighbouring motorway on one side and a creek on the other - and yet you can't hear any cars or see any sign of life outside.

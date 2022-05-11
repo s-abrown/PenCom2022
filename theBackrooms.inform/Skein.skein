@@ -20,48 +20,48 @@ You can see a classroom door and a Monitor here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1013"></child>
-            <child nodeId="node-1005"></child>
-            <child nodeId="node-1007"></child>
+        <children><child nodeId="node-1010"></child>
+            <child nodeId="node-1009"></child>
+            <child nodeId="node-1003"></child>
         </children>
     </item>
-    <item nodeId="node-1007">
+    <item nodeId="node-1003">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1008"></child>
+        <children><child nodeId="node-1004"></child>
         </children>
     </item>
-    <item nodeId="node-1008">
+    <item nodeId="node-1004">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1009"></child>
+        <children><child nodeId="node-1005"></child>
         </children>
     </item>
-    <item nodeId="node-1009">
+    <item nodeId="node-1005">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1010"></child>
+        <children><child nodeId="node-1006"></child>
         </children>
     </item>
-    <item nodeId="node-1010">
+    <item nodeId="node-1006">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1011"></child>
+        <children><child nodeId="node-1007"></child>
         </children>
     </item>
-    <item nodeId="node-1011">
+    <item nodeId="node-1007">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">(first opening the classroom door)
 
@@ -72,10 +72,10 @@ You can see a classroom door, a lift 5 door and a toilet door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1012"></child>
+        <children><child nodeId="node-1008"></child>
         </children>
     </item>
-    <item nodeId="node-1012">
+    <item nodeId="node-1008">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Classroom
@@ -86,7 +86,7 @@ You can see a classroom door and a Monitor here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1005">
+    <item nodeId="node-1009">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">Darkness
 It is pitch dark, and you can't see a thing.
@@ -94,7 +94,7 @@ It is pitch dark, and you can't see a thing.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1013">
+    <item nodeId="node-1010">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">(first opening the classroom door)
 
@@ -105,10 +105,10 @@ You can see a classroom door, a lift 5 door and a toilet door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1014"></child>
+        <children><child nodeId="node-1011"></child>
         </children>
     </item>
-    <item nodeId="node-1014">
+    <item nodeId="node-1011">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Classroom
